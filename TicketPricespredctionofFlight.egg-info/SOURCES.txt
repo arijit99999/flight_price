@@ -1,0 +1,5 @@
+setup.py
+TicketPricespredctionofFlight.egg-info/PKG-INFO
+TicketPricespredctionofFlight.egg-info/SOURCES.txt
+TicketPricespredctionofFlight.egg-info/dependency_links.txt
+TicketPricespredctionofFlight.egg-info/top_level.txt
