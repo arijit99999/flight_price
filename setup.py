@@ -5,5 +5,5 @@ setup(
     version='0.0.1',
     author='arijit dey',
     author_email='deyarijit063@gmail.com',
-    packages=find_packages()
+   packages=find_packages()
 )
