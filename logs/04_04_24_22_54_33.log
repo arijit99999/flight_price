@@ -1,0 +1,5 @@
+22--INFO--2024-04-04 22:54:33,425--data ingestion started
+30--INFO--2024-04-04 22:54:34,395--row data saved 
+32--INFO--2024-04-04 22:54:34,453--split train and test data
+35--INFO--2024-04-04 22:54:34,983--saved train data
+37--INFO--2024-04-04 22:54:35,153--saved test data
