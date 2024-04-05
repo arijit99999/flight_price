@@ -28,7 +28,7 @@ class data_ingestion:
            data=data.rename(columns=u)
            data.to_csv(self.ingestion_config.raw_data,index=False) 
            logging.info('row data saved ')  
-           train_data,test_data=train_test_split(data,test_size=.25,random_state=121)  
+           train_data,test_data=train_test_split(data,test_size=.2,random_state=121)  
            logging.info('split train and test data')   
 
            train_data.to_csv(self.ingestion_config.train_data,index=False)
