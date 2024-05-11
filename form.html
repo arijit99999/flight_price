@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>flight price prediction</h1>
+    <form action="/predict" method="post">
+    <select name="airline">
+        <option >SpiceJet</option>
+        <option >AirAsia</option>
+        <option >Vistara</option>
+        <option >GO_FIRST</option>
+        <option >Indigo</option>
+        <option >Air_India</option>
+      </select>
+      <br>
+      <select name="source_city">
+        <option >Delhi</option>
+        <option >Mumbai</option>
+        <option >Bangalore</option>
+        <option >Kolkata</option>
+        <option >Hyderabad</option>
+        <option >Chennai</option>
+      </select>
+      <br>
+      <select name="departure_time">
+        <option >Evening</option>
+        <option >Early_Morning</option>
+        <option >Morning</option>
+        <option >Afternoon</option>
+        <option >Night</option>
+        <option >Late_Night</option>
+      </select>
+      <br>
+      <select name="stops">
+        <option >zero</option>
+        <option >one</option>
+        <option >two_or_more</option>
+      </select>
+      <br>
+      <select name="arrival_time">
+        <option >Evening</option>
+        <option >Early_Morning</option>
+        <option >Morning</option>
+        <option >Afternoon</option>
+        <option >Night</option>
+        <option >Late_Night</option>
+      </select>
+      <br>
+      <select name="destination_city">
+        <option >Delhi</option>
+        <option >Mumbai</option>
+        <option >Bangalore</option>
+        <option >Kolkata</option>
+        <option >Hyderabad</option>
+        <option >Chennai</option>
+      </select>
+      <br>
+      <select name="classes">
+        <option >Economy</option>
+        <option >Business</option>
+      </select>
+      <br>
+      <input name="duration" type="text" placeholder="eneter duration in float">
+      <br>
+      <input name="days_left" type="text" placeholder="eneter day in float">
+      <br>
+      <input type="submit" value="submit">
+      </form>
+</body>
+</html>
